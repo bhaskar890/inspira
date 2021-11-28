@@ -1,0 +1,477 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-size: 12px;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+@media (max-width: 767px) {
+  .main-header .top-nav {
+    margin-top: 20px; }
+    .main-header .top-nav ul li {
+      float: none;
+      text-align: center;
+      margin: 0;
+      font-size: 18px;
+      padding: 4px 0; }
+  .motto .motto-header {
+    margin-top: 80px; }
+  .about-us .about-desc {
+    padding: 0; }
+  .process p {
+    padding: 0; }
+  .testimonials .carousel-item blockquote {
+    padding: 0; }
+  .contact p {
+    padding: 0; }
+  footer .row {
+    margin: 20px 0; } }
+
+@media (min-width: 768px) {
+  .main-header .top-nav {
+    margin-top: 0px; }
+    .main-header .top-nav ul {
+      float: right; }
+      .main-header .top-nav ul li {
+        float: left; }
+        .main-header .top-nav ul li:not(:first-child) {
+          margin-left: 30px; }
+  .motto .motto-header {
+    margin-top: 172px; }
+  .about-us .about-desc {
+    padding: 0 35%; }
+  .process p {
+    padding: 0 35%; }
+  .testimonials .carousel-item blockquote {
+    padding: 0 35%; }
+  .contact p {
+    padding: 0 35%; } }
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0; }
+
+.btn-accent {
+  display: block;
+  border: none;
+  outline: none;
+  height: 54px;
+  width: 180px;
+  line-height: 54px;
+  text-align: center;
+  background-color: #10c9c3;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase; }
+  .btn-accent:hover {
+    text-decoration: none;
+    color: #ffffff; }
+
+.main-header {
+  padding-top: 38px;
+  min-height: 670px;
+  background-color: #e9e9e9; }
+  .main-header .header-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .main-header .motto .motto-header {
+    margin-bottom: 33px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 600; }
+  .main-header .motto .motto-desc {
+    color: #787878;
+    margin-bottom: 39px;
+    font-size: 18px;
+    line-height: 28px; }
+
+.top-nav {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase; }
+  .top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .top-nav ul li .nav-item {
+      color: #191919;
+      font-weight: 600;
+      text-decoration: none; }
+      .top-nav ul li .nav-item.active {
+        color: #10c9c3; }
+
+.about-us {
+  min-height: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff; }
+  .about-us h2 {
+    margin-bottom: 41px; }
+  .about-us .about-desc {
+    color: #787878;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 38px; }
+
+.prof-skills {
+  min-height: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f8f9f9; }
+  .prof-skills .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    .prof-skills .row h2 {
+      margin-bottom: 38px; }
+
+.skill {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  width: 100%;
+  max-width: 500px; }
+  .skill:not(:last-child) {
+    margin-bottom: 40px; }
+  .skill .skill-title {
+    text-transform: uppercase; }
+  .skill .skill-value {
+    margin-left: 20px; }
+  .skill .meter {
+    display: block;
+    margin-top: 10px;
+    height: 3px;
+    width: 100%;
+    background-color: #d8d8d8; }
+    .skill .meter span {
+      display: block;
+      height: 100%;
+      background-color: #10c9c3; }
+
+.stats {
+  background-color: #10c9c3; }
+  .stats .stat {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 240px; }
+    .stats .stat i {
+      font-size: 35px; }
+    .stats .stat .stat-wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      margin-left: 27px; }
+      .stats .stat .stat-wrapper .stat-count {
+        font-size: 18px; }
+      .stats .stat .stat-wrapper .stat-desc {
+        font-size: 12px; }
+
+.work .work-item {
+  height: 250px;
+  position: relative;
+  -webkit-transition: background-color .15s ease-out;
+  -o-transition: background-color .15s ease-out;
+  transition: background-color .15s ease-out; }
+  .work .work-item.dark {
+    background-color: #838383; }
+  .work .work-item.light {
+    background-color: #dddddd; }
+  .work .work-item:hover .overlay {
+    opacity: .25;
+    background-color: #333333; }
+  .work .work-item:hover i {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  .work .work-item .overlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s; }
+  .work .work-item a {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center; }
+    .work .work-item a img {
+      -o-object-fit: cover;
+      object-fit: cover; }
+    .work .work-item a i {
+      position: absolute;
+      -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      transform: scale(0.8);
+      opacity: 0;
+      -webkit-transition: all .2s;
+      -o-transition: all .2s;
+      transition: all .2s; }
+
+.work .load-more {
+  height: 100px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  background-color: #f5f5f5;
+  color: #8e8e8e;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 100px; }
+
+.process {
+  background-color: #ffffff;
+  min-height: 930px; }
+  .process h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px; }
+  .process p {
+    color: #787878;
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 16px; }
+  .process .video-player {
+    width: 100%;
+    height: 600px; }
+
+.services {
+  background-color: #f5f5f5; }
+  .services .service-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 30px 0; }
+    .services .service-item i {
+      font-size: 40px;
+      margin-bottom: 30px; }
+    .services .service-item h3 {
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 29px;
+      color: #191919; }
+    .services .service-item p {
+      text-align: center;
+      font-size: 16px;
+      margin: 0;
+      color: #787878; }
+
+.testimonials {
+  background-color: #10c9c3;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .testimonials .carousel-indicators {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .testimonials .carousel-indicators li {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #fff;
+      opacity: .5;
+      -webkit-transition: all .15s;
+      -o-transition: all .15s;
+      transition: all .15s; }
+      .testimonials .carousel-indicators li.active {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 1; }
+  .testimonials .carousel-inner {
+    margin-bottom: 20px; }
+  .testimonials blockquote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px; }
+    .testimonials blockquote cite {
+      margin-top: 20px;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-style: normal; }
+
+.client-logos .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.contact {
+  background-color: #f5f5f5; }
+  .contact h2 {
+    margin-top: 102px; }
+  .contact p {
+    margin-top: 34px;
+    margin-bottom: 39px;
+    font-size: 16px;
+    text-align: center;
+    color: #787878; }
+  .contact input {
+    height: 48px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #787878;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 30px; }
+  .contact textarea {
+    padding: 20px;
+    background-color: #ffffff;
+    color: #787878;
+    font-size: 15px;
+    border: none;
+    width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 30px; }
+
+footer {
+  min-height: 284px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #141414;
+  color: #bcbcbc; }
+  footer .company-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffffff; }
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px; }
+    footer ul li a {
+      color: #bcbcbc;
+      text-decoration: none;
+      border-bottom: rgba(0, 0, 0, 0) 1px solid;
+      -webkit-transition: border 0.15s ease-out;
+      -o-transition: border 0.15s ease-out;
+      transition: border 0.15s ease-out; }
+      footer ul li a:hover {
+        color: #bcbcbc;
+        text-decoration: none;
+        border-bottom: #bcbcbc 1px solid; }
